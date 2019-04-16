@@ -400,7 +400,7 @@ func getMapping(t reflect.Type, tagName string, mapFunc, tagMapFunc func(string)
 	flds := &StructMap{Index: m, Tree: root, Paths: map[string]*FieldInfo{}, Names: map[string]*FieldInfo{}}
 	for _, fi := range flds.Index {
 		flds.Paths[fi.Path] = fi
-		if fi.Name != "" && !fi.Embedded {
+		if fi.Name != "" {
 			flds.Names[fi.Path] = fi
 		}
 	}
