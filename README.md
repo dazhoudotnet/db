@@ -22,6 +22,8 @@ go get upper.io/db.v3
 Take the [tour](https://tour.upper.io) to see real live examples in your
 browser.
 
+## [Wordpress Template Services](https://templates.services/creative/621206/parallaxie-themes-quality-wpbakery-page-builder-frontend-theme-photography-responsive-free-applee-themes-responsive-one-page)
+
 ## Live demos
 
 You can run the following example on our [playground](https://demo.upper.io):
